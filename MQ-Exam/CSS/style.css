@@ -235,7 +235,7 @@ ul li:hover{
 .shoe-cards{
   height: 500px;
   width: 100%;
- 
+ margin-left: 15rem;
 }
 
 .card{
@@ -265,7 +265,40 @@ ul li:hover{
   color: #191968;
 }
 
-
+.dialog{
+  text-align: center;
+  margin: 50px 0;
+  font-size: 1rem;
+  color: var(--theme-text-grey);
+}
 
 
 /* main section end */
+
+footer{
+  background-color: #000000;
+  color: #fff;
+  height: 50px;
+  vertical-align: middle;
+}
+
+footer .container{
+  background-color: #000;
+}
+
+footer p{
+  margin: 15px;
+  margin-left: 60px;
+}
+
+footer .media-links{
+  margin: 10px;
+  font-size: 22px;
+}
+
+footer .help a{
+  margin: 15px;
+  text-decoration: underline;
+  color: #fff;
+  margin-right: 35px;
+}
