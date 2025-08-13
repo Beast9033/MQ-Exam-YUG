@@ -1,0 +1,271 @@
+:root{
+  --theme-text-grey: grey;
+  --theme-white-text: #fff;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.container{
+ width: auto;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+ 
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.w-100{
+  width: 100%;
+}
+
+/*header section start*/
+
+.site-header{
+  background-color: #000000;
+  width: 100%;
+  max-height: 5rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.logo h1{
+  height: 100%;
+  color: #fff;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 12rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.nav-bar ul li{
+  font-size: 1rem;
+  padding: 2rem;
+}
+
+ul li:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+.nav-bar .active{
+  color: #afafff;
+
+}
+
+.nav-bar{
+  margin-right: 10rem;
+}
+
+.user-menu{
+  margin-right: 4rem;
+}
+
+.user-menu a{
+  font-size: 1rem;
+  padding: 2rem 1rem;
+}
+
+.user-menu a:first-child:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+.user-menu a:nth-child(2):hover{
+  background-color: #fff;
+  color: #000;
+}
+
+.user-menu a span{
+  color: orange;
+}
+
+.filter{
+  margin-left: 2rem;
+  background-color: #1313b2;
+}
+
+.filter a{
+  color: #fff;
+  font-size: 1rem;
+  margin: 2rem 3rem;
+}
+
+.filter a:hover{
+  color: #80b8d9;
+}
+
+.filter a:nth-child(2){
+  text-align: left;
+  padding-right: 5rem;
+}
+
+
+/*sub-header st*/
+
+.sub-header{
+  background-color: #fff;
+  width: 100%;
+  max-height: 5rem;
+  color: var(--theme-text-grey);
+  font-weight: 600;
+}
+
+.sub-header ul{
+  margin-left: 38%;
+}
+
+.sub-header ul li a{
+  font-size: 1rem;
+  margin: 2rem;
+}
+
+.sub-header ul li:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+.sub-header .search a{
+  margin: 2rem 0;
+  color: #000000;
+  font-size: 1rem;
+  margin-right: 25rem;
+}
+
+/*sub-header end*/
+
+/*header section end*/
+
+/* main section start */
+
+.hero{
+  background-color: #222730;
+}
+
+.hero-main img{
+  width: 50%;
+  height: 70vh;
+  margin: 0 8rem;
+}
+
+.hero-titles{
+  align-items: center;
+  margin: 8rem;
+}
+
+.hero-titles h2{
+  color: var(--theme-white-text);
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.hero-titles p{
+  color: var(--theme-text-grey);
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.hero-titles button{
+  background-color: inherit;
+  color: #fff;
+  font-size: 16px;
+  padding: 18px 30px;
+  border: 1px solid blue;
+  border-radius: 20px;
+  margin: 2rem;
+  margin-left: 6rem;
+}
+
+/*shop section*/
+
+.shop-section{
+  margin-top: 150px;
+}
+
+.shop-titles{
+  text-align: center;
+}
+
+.shop-titles h1{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.shop-titles p{
+  color: var(--theme-text-grey);
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.shoe-cards{
+  height: 500px;
+  width: 100%;
+ 
+}
+
+.card{
+  height: 450px;
+  width: 350px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 0 3rem;
+}
+
+.card h1{
+  text-align: center;
+  margin: 5px 0;
+}
+
+.card p{
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: 5px 0;
+  color: var(--theme-text-grey);
+}
+
+.card h6{
+  text-align: center;
+  margin: 5px 0;
+  font-size: 22px;
+  color: #191968;
+}
+
+
+
+
+/* main section end */
